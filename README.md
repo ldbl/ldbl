@@ -13,7 +13,8 @@ Production-first DevOps / SRE.
 ![Hetzner](https://img.shields.io/badge/-Hetzner-D50C2D?logo=hetzner&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/-ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
+![Uptrace](https://img.shields.io/badge/-Uptrace-4C51BF?logo=opentelemetry&logoColor=white)
 
 I build and document practical systems around:
 
@@ -45,8 +46,8 @@ Build platforms that are safe to change, easy to reason about, and easier to rec
 
 ## Featured projects
 
-- **[sre](https://github.com/safeops-course/sre)** — guardrails-first SRE control plane. Hetzner k3s + FluxCD + Terraform + Kyverno + CNPG, with SOPS/AGE secrets and default-deny networking.
-- **[sre-course](https://github.com/safeops-course/sre-course)** — SafeOps course site (Hugo). 17 chapters mapped file-by-file to the `sre` implementation.
+- **[sre](https://github.com/safeops-course/sre)** — guardrails-first SRE control plane. Hetzner k3s + FluxCD + Terraform + Kyverno + CNPG, with SOPS/AGE secrets and default-deny networking. 17 course chapters map file-by-file to this implementation.
+- **SafeOps course** — the course itself (Hugo + Cloudflare Pages), published at [safeops.work](https://safeops.work). Source repo is private.
 - **backend / frontend** — Go API and Vue 3 dashboard with health probes, Prometheus metrics, OpenTelemetry traces, and chaos endpoints.
 - **k8s-ai-monitor** — Kopf-based Kubernetes operator with LLM-powered root-cause analysis.
 
@@ -82,4 +83,3 @@ But production still needs human judgment, review, and accountability.
 ## Elsewhere
 
 - Website: https://safeops.work
-- Course repo: https://github.com/safeops-course/sre-course
