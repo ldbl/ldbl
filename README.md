@@ -45,7 +45,7 @@ Build platforms that are safe to change, easy to reason about, and easier to rec
 
 ## Featured projects
 
-- **[sre](https://github.com/ldbl/sre)** — guardrails-first SRE control plane. Hetzner k3s + FluxCD + Terraform + Kyverno + CNPG, with SOPS/AGE secrets and default-deny networking.
+- **[sre](https://github.com/safeops-course/sre)** — guardrails-first SRE control plane. Hetzner k3s + FluxCD + Terraform + Kyverno + CNPG, with SOPS/AGE secrets and default-deny networking.
 - **[sre-course](https://github.com/safeops-course/sre-course)** — SafeOps course site (Hugo). 17 chapters mapped file-by-file to the `sre` implementation.
 - **backend / frontend** — Go API and Vue 3 dashboard with health probes, Prometheus metrics, OpenTelemetry traces, and chaos endpoints.
 - **k8s-ai-monitor** — Kopf-based Kubernetes operator with LLM-powered root-cause analysis.
